@@ -1,0 +1,24 @@
+/* Style pour les éléments personnalisés */
+#dark-mode-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #f1f1f1 !important;
+}
+
+.dark-mode .card {
+    background-color: #222 !important;
+    color: white !important;
+}
+
+.dark-mode .btn-primary {
+    background-color: #ff6f61 !important;
+    border-color: #ff6f61 !important;
+}
